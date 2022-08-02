@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    /* font-family: "defaultText"; */
+}
+
+html {
+  overflow: -moz-scrollbars-none; 
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar { /*webkit内核*/
+  display: none;
+}
+
+@font-face {
+  font-family: 'primaryText';
+  src: url('/home/font/kos_ui.ttf');
+  }
+ 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: 'primaryText';
+  box-sizing: border-box;
+}
